@@ -2,22 +2,22 @@ import { Routes, Route, Link } from "react-router-dom";
 import CDCalc from "./CDCalc";
 import WDCalc from "./WDCalc";
 import "./App.css";
-import background from "./background-payroll.jpg";
+// import background from "./background-payroll.jpg";
 
 export default function App() {
   return (
     <div
       className="App"
-      style={{
-        backgroundImage: `url(${background})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        height: "100vh",
-        width: "100vw",
-        top: 0,
-        left: 0,
-        position: "relative",
-      }}
+      // style={{
+      //   backgroundImage: `url(${background})`,
+      //   backgroundRepeat: "repeat",
+      //   backgroundSize: "cover",
+      //   height: "100vh",
+      //   width: "100vw",
+      //   top: 0,
+      //   left: 0,
+      //   position: "absolute",
+      // }}
     >
       <h1 className="font-color">Choose a Calculator Type</h1>
       <nav>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import "./App.css";
-import background from "./background-payroll.jpg";
+// import background from "./background-payroll.jpg";
 
 export default function App() {
   const [dateState, setDateState] = useState(new Date());
